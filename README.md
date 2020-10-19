@@ -1,4 +1,4 @@
-paku is a collection of decompressors and decompressor adapters in pure Rust with no unsafe code in paku itself
+paku is a collection of decompressors in pure safe Rust
 
 ##### Goals
 1. Pure Rust. No unsafe code.
