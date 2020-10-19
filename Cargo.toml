@@ -1,0 +1,15 @@
+[package]
+name = "paku"
+version = "0.0.1"
+authors = ["Xinyun Wu <xin@snaar.net>", "Serguei Narojnyi <snaar@snaar.net>"]
+edition = "2018"
+repository = "https://github.com/octoske/paku"
+description = "Collection of decompressors in pure safe Rust."
+readme = "README.md"
+license = "BSD-2-Clause"
+keywords = ["decompression", "lzf", "lz4"]
+categories = ["compression"]
+exclude = [".idea/*"]
+
+[dependencies]
+byteorder = "1"
