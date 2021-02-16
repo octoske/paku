@@ -1,15 +1,18 @@
 paku is a collection of decompressors in pure safe Rust
 
-##### Goals
+##### Current state
+1. Collection of decompressors that I had to write because existing ones either didn't exist or had various issues for my use cases.
+
+##### Eventual goals
 1. Pure Rust. No unsafe code.
 2. Support all reasonably modern popular formats for decompression. 
 3. No dependency on external decompression code.
 4. Be reasonably fast. Currently unknown.
 
 ##### Distant future goals
-1. Support some specific compression format or two. Tbd which one. Most likely zstd.
+1. Support writing some specific compression format or two. Tbd which one. Most likely zstd.
 2. Provide no_std support.
-3. ARM and x86 asm.
+3. Optional ARM and x86 asm.
 
 ##### Supported formats
 format | status | notes

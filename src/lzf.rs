@@ -1,7 +1,9 @@
-use crate::lzf_decompress::lzf_decompress;
-use byteorder::{BigEndian, ReadBytesExt};
 use core::cmp;
 use std::io::{self, BufRead, Error, ErrorKind, Read};
+
+use byteorder::{BigEndian, ReadBytesExt};
+
+use crate::lzf_decompress::lzf_decompress;
 
 // LZF format specs says only 2 bytes to specify either of buffer sizes
 const LZF_BUF_SIZE: usize = 64 * 1024;

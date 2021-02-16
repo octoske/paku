@@ -1,8 +1,10 @@
-use crate::lz4_jblock_decompress::lz4_jblock_decompress;
-use crate::xxhash32::XXHash32;
-use byteorder::{LittleEndian, ReadBytesExt};
 use core::cmp;
 use std::io::{self, BufRead, Error, ErrorKind, Read};
+
+use byteorder::{LittleEndian, ReadBytesExt};
+
+use crate::lz4_jblock_decompress::lz4_jblock_decompress;
+use crate::xxhash32::XXHash32;
 
 /// This reader is for files that can be read by:
 /// https://github.com/lz4/lz4-java/blob/master/src/java/net/jpountz/lz4/LZ4BlockInputStream.java
