@@ -1,7 +1,7 @@
 paku is a collection of decompressors in pure safe Rust
 
 ##### Current state
-1. Collection of decompressors that I had to write because existing ones either didn't exist or had various issues for my use cases.
+1. Collection of decompressors that had to be written because existing ones either didn't exist or had various issues in some specific use cases.
 
 ##### Eventual goals
 1. Pure Rust. No unsafe code.
