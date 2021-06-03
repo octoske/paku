@@ -9,7 +9,7 @@ readme = "README.md"
 license = "BSD-2-Clause"
 keywords = ["decompression", "lzf", "lz4"]
 categories = ["compression"]
-exclude = [".idea/*"]
+exclude = [".idea/*", "notes.md"]
 
 [dependencies]
 byteorder = "1"
